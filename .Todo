@@ -3,3 +3,19 @@ npm install -D @testing-library/react @testing-library/jest-dom @testing-library
 npm install -D @babel/preset-react @babel/preset-typescript @babel/preset-env
 npm i jest-environment-jsdom --save-dev
 // a partir do jest 28 o jsdom nao vem instalado
+
+
+--- prettier eslint
+
+npx eslint --init
+npm install --save-dev --save-exact prettier
+npm install --save-dev eslint-plugin-prettier
+npm install --save-dev eslint-config-prettier
+npm install eslint-plugin-react-hooks --save-dev
+
+
+"extends": [
+"plugin:prettier/recommended",
+"plugin:react-hooks/recommended"
+],
+
