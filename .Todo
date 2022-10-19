@@ -1,0 +1,5 @@
+npm install -D jest
+npm install -D @testing-library/react @testing-library/jest-dom @testing-library/user-event
+npm install -D @babel/preset-react @babel/preset-typescript @babel/preset-env
+npm i jest-environment-jsdom --save-dev
+// a partir do jest 28 o jsdom nao vem instalado
